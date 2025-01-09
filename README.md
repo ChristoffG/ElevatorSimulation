@@ -69,6 +69,8 @@ The project includes unit tests to ensure the reliability of key components. To 
    dotnet test
    ```
 
+[![Build and Test](https://github.com/ChristoffG/ElevatorSimulation/actions/workflows/build.yml/badge.svg)](https://github.com/ChristoffG/ElevatorSimulation/actions/workflows/build.yml)
+
 ### Mocking with Moq
 The `Moq` library is used to mock dependencies in unit tests, ensuring isolation and testing specific behaviors of components.
 
