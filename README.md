@@ -107,9 +107,6 @@ public void AddPassengers_ShouldAdd_WhenCapacityAllows()
 3. Commit your changes and push to your fork.
 4. Submit a pull request for review.
 
-## License
-This project is licensed under the MIT License. See `LICENSE` for details.
-
 ## Contact
 For questions or feedback, please contact:
 - **Email**: [christoff.gouws@gmail.com]
