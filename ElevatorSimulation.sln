@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorSimulation", "ElevatorSimulation\ElevatorSimulation.csproj", "{ECBA61CC-13E8-4CBB-95C5-383E4648BBD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorSimulation.Tests", "ElevatorSimulation.Tests\ElevatorSimulation.Tests.csproj", "{9CA67ED8-D1AF-4697-AD70-55D9D0EB0D90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECBA61CC-13E8-4CBB-95C5-383E4648BBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECBA61CC-13E8-4CBB-95C5-383E4648BBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECBA61CC-13E8-4CBB-95C5-383E4648BBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECBA61CC-13E8-4CBB-95C5-383E4648BBD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA67ED8-D1AF-4697-AD70-55D9D0EB0D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA67ED8-D1AF-4697-AD70-55D9D0EB0D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA67ED8-D1AF-4697-AD70-55D9D0EB0D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA67ED8-D1AF-4697-AD70-55D9D0EB0D90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

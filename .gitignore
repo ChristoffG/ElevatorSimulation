@@ -1,0 +1,105 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.csproj.user
+
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore packages folder (when not using PackageReference in .csproj)
+packages/
+
+# Ignore NuGet restore logs
+*.nupkg
+*.snupkg
+
+# Ignore project lock files
+project.lock.json
+project.fragment.lock.json
+
+# Ignore application configuration files
+appsettings*.json
+
+# Ignore Rider IDE files
+.idea/
+*.sln.iml
+
+# Ignore temporary files and logs
+*.log
+*.tlog
+*.ide
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore generated test results
+TestResults/
+*.trx
+
+# Ignore Resharper settings
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore coverage reports (e.g., from dotCover or other tools)
+coverage/
+*.coverage
+*.coveragexml
+*.coverageresults
+
+# Ignore file system metadata
+*.swp
+*.lock
+*.pid
+*.seed
+*.orig
+
+# Ignore the `dotnet watch` file
+*.hotreload
+
+# Ignore user secrets
+secrets.json
+
+# Ignore Visual Studio Code settings and extensions
+.vscode/
+*.code-workspace
+
+# Ignore other IDEs or editor settings
+*.sublime-*
+*.ncb
+*.pyc
+*.pyo
+*.min.js
+*.min.css
+
+# Ignore runtime-specific folders
+wwwroot/
+node_modules/
+
+# Ignore dependency graph output
+*.dg
+
+# Ignore compiled shared libraries
+*.dll
+*.pdb
+*.so
+*.dylib
+
+# Ignore Markdown output from static generators
+_site/
+.DS_Store
+
+# Ignore additional tools
+*.publish
+
+# Ignore files from the Test Project
+ElevatorSimulation.Tests/bin/
+ElevatorSimulation.Tests/obj/
+
+.fake
