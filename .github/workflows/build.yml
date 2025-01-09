@@ -1,0 +1,38 @@
+name: Build and Test
+
+# Run this workflow whenever code is pushed or a pull request is created
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build and Test Solution
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Check out the code
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Step 2: Setup .NET environment
+    - name: Set up .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0' 
+
+    # Step 3: Restore dependencies
+    - name: Restore dependencies
+      run: dotnet restore
+
+    # Step 4: Build the solution
+    - name: Build solution
+      run: dotnet build --no-restore --configuration Release
+
+    # Step 5: Run unit tests
+    - name: Run unit tests
+      run: dotnet test --no-build --verbosity normal
