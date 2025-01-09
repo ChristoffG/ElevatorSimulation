@@ -1,8 +1,21 @@
 ﻿// Program.cs
 namespace ElevatorSimulation
 {
+    /// <summary>
+    /// The main entry point for the ElevatorSimulation application.
+    /// This class sets up and runs the simulation by initializing necessary components,
+    /// handling user input, processing elevator requests, and displaying results.
+    /// </summary>
     public class Program
     {
+        /// <summary>
+        /// The main entry point of the application.
+        /// This method sets up the building, elevators, dispatcher, and other necessary components
+        /// before starting the simulation loop. It handles the elevator request processing and 
+        /// manages the display of elevator status in the console.
+        /// </summary>
+        /// <param name="args">Command-line arguments for application configuration (if any).</param>
+        /// <returns>A Task representing the asynchronous operation.</returns>
         public static async Task Main(string[] args)
         {
             // Create a shared console lock

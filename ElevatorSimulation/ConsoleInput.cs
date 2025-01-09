@@ -1,18 +1,33 @@
 // ConsoleInput.cs
 namespace ElevatorSimulation
 {
+    /// <summary>
+    /// Provides a console-based implementation for receiving user input related to elevator requests.
+    /// </summary>
     public class ConsoleInput : IUserInput
     {
         private readonly int inputLine;
         private readonly IBuilding building;
         private readonly object consoleLock = new object();
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ConsoleInput"/> class.
+        /// </summary>
+        /// <param name="inputLine">The console line number where user input will be read.</param>
+        /// <param name="building">The building instance used to validate floor numbers.</param>
         public ConsoleInput(int inputLine, IBuilding building)
         {
             this.inputLine = inputLine;
             this.building = building;
         }
 
+        /// <summary>
+        /// Asynchronously reads and processes the next user input for an elevator request.
+        /// </summary>
+        /// <returns>
+        /// A task that resolves to an <see cref="IElevatorRequest"/> object representing the user input,
+        /// or <c>null</c> if the user chooses to exit the program.
+        /// </returns>
         public async Task<IElevatorRequest?> GetNextRequest()
         {
             while (true)
