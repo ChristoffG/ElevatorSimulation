@@ -35,4 +35,4 @@ jobs:
 
     # Step 5: Run unit tests
     - name: Run unit tests
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --no-build --configuration Release --verbosity normal
